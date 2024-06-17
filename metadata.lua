@@ -2,11 +2,14 @@ return PlaceObj('ModDef', {
 	'title', "Suit Up",
 	'description', "[h1]Suit Up[/h1]\n[i]Your mercs will change the outfit before entering in combat not to mess their beautiful civilian clothes.[/i]\n[hr][/hr]\n[h3]Sig's[/h3]\nKalyna, Ivan, Nails, Thor, Mouse\n[h3]Red Shirt's[/h3]\nMagic, Buns, Hitman, Sidney, Meltdown, MD, Barry, Tex, Grunty, Fox, Scully, Reaper, Ice\n[hr][/hr]\n[h3]Features[/h3]\n[list]\n    [*]It changes the appearance of your merc according to the circumstances\n[/list]\n[h3]Notes:[/h3]\n[i]Because Sig and Red Shirt replace the original outfit of the mercs you must  deactivate their original mod before loading this one.\nI tried to reach Red Shirt to ask permission but he did not replied, if he request I will delete his assets from this mod.\n[/i]\n[hr][/hr]\n[h3] More immersion mods [/h3]\n[list]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238535853] Learn to Like Me [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3253711922] Baby Don't You Lie to Me [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3260806453] Audaki’s Training Overhaul[/url]\n[/list]",
 	'image', "Mod/SuitUp/Images/640_mighty-morphin-power-ra.jpg",
-	'last_changes', "- updated description",
+	'external_links', {
+		"https://github.com/yasumitsu/Suit-Up",
+	},
+	'last_changes', "- added Red Shirt presets",
 	'id', "SuitUp",
 	'author', "Sir Ni",
 	'version_major', 1,
-	'version', 52,
+	'version', 54,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -15,8 +18,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1718604993,
-	'code_hash', 6633358492789983935,
+	'saved', 1718605606,
+	'code_hash', 7498573850295077709,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "CharacterEffectCompositeDef",

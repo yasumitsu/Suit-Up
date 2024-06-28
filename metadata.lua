@@ -9,7 +9,7 @@ return PlaceObj('ModDef', {
 	'id', "SuitUp",
 	'author', "Sir Ni",
 	'version_major', 1,
-	'version', 54,
+	'version', 55,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -18,7 +18,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1718605606,
+	'saved', 1719490530,
 	'code_hash', 7498573850295077709,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
